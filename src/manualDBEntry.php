@@ -12,6 +12,7 @@ try {
   echo "New record created successfully";
 } catch(PDOException $e) {
   echo "Connection failed: " . $e->getMessage();
+  echo "change made";
 }
 
 ?>
